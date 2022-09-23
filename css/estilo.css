@@ -19,10 +19,7 @@ text-align: center;
      align-items: center;
      justify-content: center;
      background-color: #fff;
-}
-.logo{
-    width: 300px;
-    height: 200px;
+
     
 }
 .img{
@@ -39,7 +36,7 @@ nav{
 .menu{
     list-style-type: none;
     margin: 10px;
-    background-color: #ffd500;
+    background-color: #7c7b76;
     text-align: center;
 }
 .menu li{
@@ -54,12 +51,11 @@ nav{
 }
 .menu li a:hover{
     color: white;
-    background-color: #ffd500 ;
+    background-color: #7c7b76;
 }
-
 footer{
 
-    background-color: #ffd500;
+    background-color: #7c7b76;
     margin: 10px;
     padding: 20px;
     border: 1px;
@@ -166,14 +162,15 @@ fieldset{
     }
 }
 .navColor{
-    background-color: #fdd500;
+    background-color:#7c7b76;
     font-family: 'Roboto', sans-serif;
-    color: #000000;
+    color: rgb(255, 253, 253);
     margin: 10px;
     padding: 20px;
 }
 .navColor:hover{
     font-weight: bold;
+    color: white;
 }
 .colorBoton{
     background-color: #ffffff;
