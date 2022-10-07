@@ -21,10 +21,31 @@ header{
                 background-color: #ffffff;
          }
      }
-    
+    }
+    main{
+        h3{
+            text-align: center;
+        }
+    }
+    footer{
+        background-color: grey;
+        margin: 10px;
+        padding: 20px;
+        border: 1px;
+        color: black;
+        text-align: center;
+        .redes a i{
+            font-size: 25px;
+             text-align: center;
+             padding: 5px 10px;
+             color: #fff;
+        }
+         .redes a i:hover{
+            transform: scale(1.5);
+            transition: all 1s ease;
+         }
+    }
    
-    
-}
 main{
     .productosDestacados{
         align-items: center;
@@ -38,4 +59,60 @@ main{
 .productosImg{
         border: 1px solid #000000
 }
+}
+.tablaDeTalles{
+    background-color:white;
+     text-align: center;
+     margin: 10px;
+     padding: 20px;
+     border: solid  grey;
+table{
+    margin: 1.5rem;
+    padding: 1rem;
+    width: 30%;
+    border: 1px solid grey;
+   align-items: center;
+}
+th, td {
+    width: 10%;
+    text-align: left;
+    border: 1px solid black;
+    vertical-align: top;
+    border-collapse: collapse;
+    padding: 0.3em;
+    caption-side: bottom;
+ }  
+ }
+ .formColor{
+    background-color: #ffffff;
+    color: #000000;
+    border: 5px solid grey;
+    padding: 20px;
+    margin: 10px;
+    h3{
+        text-align: center;
+    }
+
+ }
+ @media (max-width: 768px) {
+    body {
+           background-color: white;
+           color: black;
+           display: block;
+    }
+}
+
+@media (min-width: 600px){
+    body{
+           background-color:#ffffff;
+           color: black;
+           display: block;
+    }
+}
+@media (max-width: 900px){
+    body{
+           background-color: #ffffff;
+           color: black;
+           display: flexbox;
+    }
 }
