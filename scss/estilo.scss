@@ -1,3 +1,5 @@
+@import "mediaqueries";
+
 body{
     background-color: white;
     font-family: 'Kanit', sans-serif;
@@ -94,25 +96,3 @@ th, td {
     }
 
  }
- @media (max-width: 768px) {
-    body {
-           background-color: white;
-           color: black;
-           display: block;
-    }
-}
-
-@media (min-width: 600px){
-    body{
-           background-color:#ffffff;
-           color: black;
-           display: block;
-    }
-}
-@media (max-width: 900px){
-    body{
-           background-color: #ffffff;
-           color: black;
-           display: flexbox;
-    }
-}
